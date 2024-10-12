@@ -1,0 +1,114 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #F9F9F9; /* Light background for contrast */
+}
+
+header {
+    background: #000000; /* Black header */
+    color: #FFFFFF; /* White text */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* White links */
+    text-decoration: none;
+}
+
+.hero {
+    background: #4CAF50; /* Green hero section */
+    color: #FFFFFF; /* White text */
+    padding: 100px 20px;
+    text-align: center;
+    margin-top: 60px; /* Adjust for fixed header */
+}
+
+.cta {
+    background: #A5D6A7; /* Light green for call-to-action */
+    color: #000000; /* Black text */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 20px; /* Add padding for sections */
+    margin: 20px 0;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+#investment-plans {
+    background: #f9f9f9; /* Light background for investment plans */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.investment-plan {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #4CAF50; /* Green border */
+    border-radius: 5px;
+    background: #FFFFFF; /* White background for plans */
+    display: inline-block;
+    width: 30%; /* Adjust based on how many plans you want to show per row */
+}
+
+.investment-plan h3 {
+    color: #4CAF50; /* Green for plan titles */
+}
+
+#testimonials {
+    background: #f9f9f9; /* Light background for testimonials */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #4CAF50; /* Green border */
+    border-radius: 5px;
+    background: #FFFFFF; /* White background for testimonials */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000000; /* Black footer */
+    color: #FFFFFF; /* White text */
+    position: relative;
+}
+
+#currency-converter {
+    background: #f9f9f9; /* Light background for currency converter */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#translator {
+    text-align: center;
+    padding: 20px 0;
+}
