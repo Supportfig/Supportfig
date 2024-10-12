@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SixFigureFX • Advanced Brokerage</title>
+    <meta name="description" content="SixFigureFX • Your premier global trading forum empowering independent investors with advanced tools and resources.">
+    <meta name="keywords" content="trading, forex, cryptocurrency, investment plans, independent investor, financial market">
+    <meta name="author" content="SixFigureFX">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@walletconnect/web3-provider/dist/umd/index.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">SixFigureFX</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#analytics">Analytics Tools</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#investment-plans">Investment Plans</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#wallet-connect">Connect Wallet</a></li>
+                <li><a href="#currency-converter">Currency Converter</a></li>
+                <li><a href="#translator">Translate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Trade with Confidence</h1>
+        <p>Your trusted partner in financial markets.</p>
+        <a href="#contact" class="cta">Open an Account</a>
+    </section>
+
+    <section id="analytics">
+        <h2>Advanced Analytics Tools</h2>
+        <div class="analytics-tool">
+            <h3>Real-Time Market Data</h3>
+            <p>Get the latest market quotes and charts.</p>
+        </div>
+        <div class="analytics-tool">
+            <h3>Customizable Dashboard</h3>
+            <p>Create your personalized trading dashboard.</p>
+        </div>
+        <div class="analytics-tool">
+            <h3>Technical Analysis Tools</h3>
+            <p>Utilize advanced charting tools with indicators.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Forex Trading</h3>
+            <p>Trade major and minor currency pairs with competitive spreads.</p>
+        </div>
+        <div class="service">
+            <h3>CFDs</h3>
+            <p>Access a wide range of markets from a single account.</p>
+        </div>
+        <div class="service">
+            <h3>Educational Resources</h3>
+            <p>Learn with our webinars, guides, and trading tools.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to SixFigureFX, your premier global trading forum dedicated to connecting traders from around the world. Our mission is to create a vibrant community where investors of all levels can share insights, strategies, and experiences in the ever-evolving financial markets.</p>
+        <p>At SixFigureFX, we believe in the power of collaboration and knowledge-sharing. Our platform is designed to provide you with cutting-edge tools, comprehensive resources, and a wealth of information to navigate the complexities of trading. Whether you are a novice or an experienced trader, you’ll find valuable insights and support from a diverse network of global traders.</p>
+        <p>Join us on this exciting journey toward financial empowerment. Engage with fellow traders, participate in discussions, and access exclusive market analysis that will help you succeed. Together, we can elevate the trading experience and build a thriving community in the world of finance.</p>
+    </section>
+
+    <section id="investment-plans">
+        <h2>Investment Plans</h2>
+        <div class="investment-plan">
+            <h3>Basic Plan</h3>
+            <p>Minimum Investment: $1,000</p>
+            <p>Expected Return: 5% per month</p>
+            <p>Duration: 6 months</p>
+            <p>Ideal for beginners looking to start their investment journey.</p>
+        </div>
+        <div class="investment-plan">
+            <h3>Standard Plan</h3>
+            <p>Minimum Investment: $5,000</p>
+            <p>Expected Return: 8% per month</p>
+            <p>Duration: 12 months</p>
+            <p>Designed for moderate investors looking to grow their portfolio.</p>
+        </div>
+        <div class="investment-plan">
+            <h3>Premium Plan</h3>
+            <p>Minimum Investment: $10,000</p>
+            <p>Expected Return: 12% per month</p>
+            <p>Duration: 24 months</p>
+            <p>Best for experienced investors seeking higher returns.</p>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Client Feedback</h2>
+        <div class="testimonial">
+            <p>"SixFigureFX has transformed my trading experience. The support is top-notch!"</p>
+            <p><strong>• Elena Franklin</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>"I've learned so much through their educational resources. Highly recommend!"</p>
+            <p><strong>• Guilherme</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>"The trading platform is user-friendly and efficient. Great service overall!"</p>
+            <p><strong>• Anita Lopez</strong></p>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Latest Articles</h2>
+        <article>
+            <h3>Understanding Forex Trading</h3>
+            <p>Learn the basics of forex trading and how to get started.</p>
+        </article>
+        <article>
+            <h3>Top 5 Trading Strategies</h3>
+            <p>Explore the most effective trading strategies to enhance your trading skills.</p>
+        </article>
+    </section>
+
+    <section id="wallet-connect">
+        <h2>Connect Your Wallet</h2>
+        <button id="connect-wallet">Connect Wallet</button>
+        <p id="wallet-address"></p>
+    </section>
+
+    <section id="currency-converter">
+        <h2>Currency Converter</h2>
+        <input type="number" id="amount" placeholder="Amount">
+        <select id="from-currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <!-• Add more currencies as needed -->
+        </select>
+        <span>to</span>
+        <select id="to-currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <!-• Add more currencies as needed -->
+        </select>
+        <button id="convert">Convert</button>
+        <p id="result"></p>
+    </section>
+
+    <section id="translator">
+        <h2>Translate Page</h2>
+        <button id="translate-button">Translate to Spanish</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>If you have any questions, feel free to contact us at: <a href="mailto:support@six-ftfx.com">support@six-ftfx.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SixFigureFX. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
